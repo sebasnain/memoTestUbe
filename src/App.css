@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+/*  #010403
+ #25ab6c */
+
+.app {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgba(35,41,35,1);
+background: -moz-linear-gradient(left, rgba(35,41,35,1) 0%, rgba(23,48,28,1) 3%, rgba(10,9,9,1) 99%, rgba(3,3,3,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(35,41,35,1)), color-stop(3%, rgba(23,48,28,1)), color-stop(99%, rgba(10,9,9,1)), color-stop(100%, rgba(3,3,3,1)));
+background: -webkit-linear-gradient(left, rgba(35,41,35,1) 0%, rgba(23,48,28,1) 3%, rgba(10,9,9,1) 99%, rgba(3,3,3,1) 100%);
+background: -o-linear-gradient(left, rgba(35,41,35,1) 0%, rgba(23,48,28,1) 3%, rgba(10,9,9,1) 99%, rgba(3,3,3,1) 100%);
+background: -ms-linear-gradient(left, rgba(35,41,35,1) 0%, rgba(23,48,28,1) 3%, rgba(10,9,9,1) 99%, rgba(3,3,3,1) 100%);
+background: linear-gradient(to right, rgba(35,41,35,1) 0%, rgba(23,48,28,1) 3%, rgba(10,9,9,1) 99%, rgba(3,3,3,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232923', endColorstr='#030303', GradientType=1 );
+}
+
+header > h1{
+    color: #29c278;
+}
+
+.chronometer  {
+    height: 70px;
+    width: 200px;
+     text-align:end;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(194, 236, 210);
+    border-radius: 15px;
+    margin: 3px;
+   
+}
+
+.chronometer > h2{
+    font-family: 'Electrolize', sans-serif; 
+    font-size: 40px;
+    color: rgb(194, 236, 210);
+}
+
+.chronometer > button{
+    font-size: 20px;
+    height: 40px;
+    width: 85px;
+    margin-right: 8px;
+    border-radius: 8px;
+    background-color: #25ab6c ;
+    border: none;
+    }
+.chronometer > button:hover{
+    background-color: #12482f;
+    color: #25ab6c;
+    cursor: pointer;
+}
+
+.container-preguntas-respuestas{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+
+.cards-container-pregunta{
+    text-align: center;
+    width: 50%;
+    height: 90%;
+    border: 4px solid rgb(194, 236, 210);
+    border-radius: 15px;
+    margin: 3px;
+}
+.cards-container-pregunta > h1{
+      color: rgb(194, 236, 210);;
+}
+.cards-container-respuesta{
+    text-align: center;
+    width: 50%;
+    height: 90%;
+    border: 4px solid rgb(194, 236, 210);
+    border-radius: 15px;
+    margin: 3px;
+}
+.cards-container-respuesta > h1{
+    color: rgb(194, 236, 210);;
+}
+
+
+.footer{
+    background-color: rgb(12, 11, 11);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
